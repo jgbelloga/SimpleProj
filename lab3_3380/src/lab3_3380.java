@@ -43,6 +43,7 @@ public class lab3_3380 {
 			pack = load_a_package();
 			System.out.printf("The cost of this package is $%.2f\n", pack.cost());
 		}
+
 	}
 
 }

@@ -9,7 +9,7 @@ public abstract class Crate implements Package {
 	public void input() {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Please input the weight for the ");
-		System.out.print(this instanceof MetalCrate ? "MetalCrate (lbs) : " : "WoodCrate (lbs) :");
+		System.out.print(this instanceof MetalCrate ? "MetalCrate (lbs) : " : "WoodCrate (lbs) : ");
 		weight = scan.nextDouble();
 	}
 
